@@ -40,7 +40,6 @@ void selection(int arr[],int n){ 									// method for selection sort
 };
 int main()
 {
-    cout<<"Code by MSanathoi"<<endl;
     int sz;
     cout<<"Enter size of the array: ";  cin>>sz;					// taking number of elements to sort from user
     cout<<endl;
