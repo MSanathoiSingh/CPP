@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Social Warrior !! - UDAAN</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap">
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/pay_style.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/slider/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+</head>
+
+<body>
+<header class="continer-fluid ">
+    <div  class="header-top">
+        <div class="container">
+            <div class="row col-det">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <ul class="ulleft">
+                        <li>
+                            <i class="far fa-envelope"></i>
+                            prakashrathod@gmail.com
+                            <span>|</span></li>
+                        <li>
+                            <i class="fas fa-phone-volume"></i>
+                            9607831738</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 folouws">
+                  
+                    <ul class="ulright">
+                       <li> <small>Folow Us </small>:</li>
+                        <li>
+                            <i class="fab fa-facebook-square"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-twitter-square"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-instagram"></i>
+                        </li>
+                        <li>
+                            <i class="fab fa-linkedin"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 d-none d-md-block col-md-6 btn-bhed">
+                    <button class="btn btn-sm btn-default">Join Us</button>
+                    <button class="btn btn-sm btn-success">Donate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="menu-jk" class="header-bottom">
+        <div class="container">
+            <div class="row nav-row">
+                <div class="col-lg-3 col-md-12 logo">
+                    <a href="index.html">
+                        <img src="assets/logo.png" alt="">
+                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i class="fas d-block d-lg-none  small-menu fa-bars"></i></a>
+                    </a>
+
+                </div>
+                <div id="menu" class="col-lg-9 col-md-12 d-none d-lg-block nav-col">
+
+                            <ul class="navbad">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about_us.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="services.html">Services</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="gallery.html">Gallery</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact_us.html">Contact US</a>
+                                </li>
+
+
+
+
+                            </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </div> 
+</header>
+<p id="pay_p">Yes, I am willing to bring a change !!</p>
+<form action="Razorpay.php" method="post" id="pay">
+    <label for='name' class="lbl">Name <sup>*</sup>&nbsp;</label>
+    <input type="text" id="name" name="name" placeholder="Your Name Here" required>
+    <label for='date' class="lbl">Date <sup>*</sup>&nbsp;</label>
+    <input type="date" id="date" name="date">    
+    <label for='cnt' class="lbl">Contact Details <sup>*</sup>&nbsp;</label>
+    <input type="tel" id="cnt" name="contact" pattern="[0-9]{10}" required>
+    <label for='mail' class="lbl">E-Mail <sup>*</sup> </label>
+    <input type="email" id="mail" name="mail" placeholder="someone@example.com" required>
+    <label for='add' class="lbl">Address <sup>*</sup> </label>
+    <input type="text" id="add" name="address" placeholder="Postal Address" required>
+    <label for='price' class="lbl">Donation Amount <sup>*</sup> </label>
+    <input type="number" id="price" name="price" placeholder="Amount is in INR" min="1" required>
+    <input type="submit" name="commit" value="SUBMIT" onclick="sbmt()">
+    <input type="reset" name="abort" value="RESET" onclick="rst()">
+</form>
+<script>
+    function sbmt(){
+        confirm("Data submitted can't be modified !");
+    }
+    function rst(){
+        alert("Are you sure? Data can't be retrieved !")
+    }
+</script>
+</body>
+</html>

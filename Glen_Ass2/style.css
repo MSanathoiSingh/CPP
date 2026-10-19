@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#home{
+	background-image: linear-gradient(to top right,green,blue,yellow);
+}
+#contact{
+	background-image: url('Bmg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.tabs{
+	position : relative;
+	background-color: black;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-left: 8px;
+	padding-bottom: 8px;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	display: flex;
+}
+.tabs ul{margin-left: calc(25%);}
+.tabs a{
+	color: white;
+	text-decoration: none;
+}
+.tabs a:hover{
+	cursor: pointer;
+	color: rgb(235, 158, 14);
+	transform: scale(1.1,1.1);
+}
+.tabs ul li{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: small;
+	padding-inline-end: 20px;
+	list-style-type: none;
+	float: center;
+	display: inline-flex;
+}
+.btn_active{
+	color: greenyellow;
+	transform: scale(1.2,1.2);
+}
+table,td{
+	border: 4px solid black;
+	text-align: center;
+	font-family: 'Baloo Bhai 2', cursive;
+	padding: 10px;
+	width: max-content;
+	border-collapse: collapse;
+}
+th{
+	font-family: 'Josefin Sans', sans-serif;
+	border: 4px solid black;
+	padding: 10px;
+	color: rgb(34, 2, 19);
+}
+.email{
+	font-family: 'Baloo Bhai 2', cursive;
+	font-family: 'Playfair Display', serif;
+	cursor: pointer;	
+}
+#align{
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2%;
+}
+#cnt_intr{
+	margin-top: 26px;
+	color: rgb(85, 5, 5);
+	font-size: xx-large;
+	text-align: center;
+	font-family: 'Baloo Bhai 2', cursive;
+}
+#img{
+	display: block;
+	height: 450px;
+	width: 100%;
+	margin: auto;
+}
+.overlay{
+	position: relative;
+}
+.overlay:hover .intro{
+	height: 35%;
+}
+.intro{
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(243, 36, 9, 0.863);
+	display: run-in;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: 1s ease-in;
+}
+#intro_txt h1{
+	margin-top: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	color: cornsilk;
+	text-align: center;
+}
+#intro_txt p{
+	padding: 5px;
+	font-family: 'Playfair Display', serif;
+	color: rgb(216, 247, 81);
+	font-size: 27px;
+	text-align: center;
+}
+.side-by-side{
+	display: inline-flex;
+}
+.side_stk{
+	height: 240px;
+	width: 334px;
+}
+.product{
+	position: absolute;
+	background-color: rgb(9, 196, 243);
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0;
+	cursor: pointer;
+	transition: .3s ease-in-out;
+}
+.prd_txt h3{
+	font-family: 'Baloo Bhai 2', cursive;
+	font-size: x-large;
+	color:rgb(12, 12, 12);
+	margin-top: 15px;
+	text-align: center;
+}
+.prd_txt p{
+	word-wrap: normal;
+	font-size: 18px;
+	margin-top: 50px;
+	margin-left: 8px;
+	margin-right: 8px;
+	cursor: grab;
+	font-family: 'Playfair Display', serif;
+	color: rgb(255,255,255);
+	text-align: center;
+}
+#stv{
+	position: relative;
+	display: inline-flex;
+	width: 334px;
+}
+#stv:hover .product{
+	opacity: 0.9;
+}
+#ktl{
+	position: relative;
+	display: inline-flex;
+	width: 334px;
+}
+#ktl:hover .product{
+	opacity: 0.9;
+}
+#ovn{
+	position: relative;
+	display: inline-flex;
+	width: 334px;
+}
+#ovn:hover .product{
+	opacity: 0.9;
+}
+#tst{
+	position: relative;
+	display: inline-flex;
+	width: 334px;
+}
+#tst:hover .product{
+	opacity: 0.9;
+}
+#grn{
+	position: relative;
+	display: inline-flex;
+	width: 334px;
+}
+#grn:hover .product{
+	opacity: 0.9;
+}
+#jcr{
+	position: relative;
+	display: inline-flex;
+	width: 334px;
+}
+#jcr:hover .product{
+	opacity: 0.9;
+}
+#htr{
+	position: relative;
+	display: inline-flex;
+	width: 334px;
+}
+#htr:hover .product{
+	opacity: 0.9;
+}
+#chm{
+	position: relative;
+	display: inline-flex;
+	width: 334px;
+}
+#chm:hover .product{
+	opacity: 0.9;
+}
+.footer{
+	background-color: rgb(248, 247, 247);
+	text-align: center;
+	padding: 8px;
+	width: 100%;
+	height: fit-content;
+}
+.footer p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+}
+.icons{
+	cursor: pointer;
+	padding: 5px;
+	margin-right: 6px;
+}
+.lbl{
+	font-size: larger;
+	font-family: 'Baloo Bhai 2', cursive;
+}
+#frm{
+	text-align: left;
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+}
+select{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 15px;
+	padding: 2px;
+	border-radius: 8px;
+	background-color: rgb(216, 214, 214);
+	text-align: center;
+	width: fit-content;
+}
+input[type=text], input[type=date], input[type=email], input[type=tel]{
+	padding: 1px;
+	padding-left: 10px;
+	font-family: 'Baloo Bhai 2', cursive;
+	border-radius: 8px;
+	background-color: rgb(227, 242, 243);
+}
+input[type=submit], input[type=reset], input[type=button]{
+	padding: 5px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	border-radius: 8px;
+	background-color: rgb(212, 38, 32);
+	border-color: brown;
+	text-align: center;
+	color: rgb(248, 246, 246);
+}
+textarea{
+	padding: 1px;
+	padding-left: 10px;
+	font-family: 'Baloo Bhai 2', cursive;
+	border-radius: 8px;
+	background-color: rgb(227, 242, 243);
+}

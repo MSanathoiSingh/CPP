@@ -1,0 +1,100 @@
+#box{
+    display: grid;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 35%;
+    width: 350px;
+    height: auto;
+}
+#row1{
+    display: grid;
+    height: 60px;
+    width: 100%;
+    grid-template-columns: 100  %;
+}
+#row2{
+    display: grid;
+    /*position: relative;
+    top: 5px;*/
+    height: 20px;
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+#row3{
+    display: grid;
+    position: relative;
+    top: 18px;
+    height: 20px;
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+#row4{
+    display: grid;
+    position: relative;
+    top: 36px;
+    height: 20px;
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+#row5{
+    display: grid;
+    position: relative;
+    top: 54px;
+    height: 20px;
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+#lt{
+    display: grid;
+    position: relative;
+    top: 72px;
+    height: 20px;
+    width: 100%;
+    grid-template-columns: 50% 25% 25%;
+}
+#inp{
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: large;
+    border: 3px solid;
+    border-radius: 15px;
+    border-color: chartreuse;
+    background-color: rgb(215, 240, 240);
+    color: black;
+}
+.crt{
+    border-radius: 90px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: larger;
+    background-color: rgb(250, 7, 7);
+    color: rgb(250, 245, 245);
+}
+.crt:hover{
+    border: 2px solid rgb(55, 250, 6);
+    background-color: rgb(253, 253, 253);
+    color: rgb(12, 12, 12);
+}
+.sign{
+    border-radius: 90px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: larger;
+    background-color: rgb(16, 2, 65);
+    color: rgb(253, 253, 253);
+}
+.sign:hover{
+    border: 2px solid rgb(55, 250, 6);
+    background-color: rgb(253, 253, 253);
+    color: rgb(12, 12, 12);
+}
+.num{
+    border-radius: 90px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: larger;
+    background-color: rgb(189, 88, 6);
+    color: rgb(249, 252, 250);
+}
+.num:hover{
+    border: 2px solid rgb(55, 250, 6);
+    background-color: rgb(253, 253, 253);
+    color: rgb(12, 12, 12);
+}

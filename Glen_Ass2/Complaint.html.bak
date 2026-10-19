@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="description" content="Kitchen Ware">
+<meta name="autdor" content="M Sanatdoi Singh">
+<meta http-equiv="refresh" content="45">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display:ital@1&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap">
+</head>
+<title>Always ready for improvements !!</title>
+<body id="contact">
+    <nav class="tabs">
+        <ul>
+            <li><a href="Home.html">HOME</a></li>
+            <li><a href=''>PRODUCTS</a></li>
+            <li><a href=''>SERVICES</a></li>
+            <li><a href=''>LEGACY</a></li>
+            <li><a href=''>REGISTER/SIGN IN</a></li>
+            <li><div class="btn_active">COMPLAINT/SUGGESTION(S)</div></li>                            <!--form-->
+            <li><a href="ContactUs.html">CONTACT US</a></li>                                          <!--table-->
+        </ul>
+    </nav>
+    <p id="cnt_intr">We are always there for you, always ready for improvements/betterment,<br>your help will always be remembered !!!</p>
+    <form id="frm">
+        <label for="type" class="lbl">Form Type: &emsp;</label>
+        <select name='type' id="type" required="True">
+            <option value="Complaint">Complaint</option>
+            <option value="Complaint">Suggestion</option>
+        </select><br>
+        <label for="name" class="lbl">Name: &emsp;</label>
+        <input type="text" id="name" name="name" placeholder="N A M E" required size="40">
+        <br>
+        <label for="date" class="lbl">Date: &emsp;</label>
+        <input type="date" id="date" name="date" required>
+        <br>
+        <label for="id" class="lbl">E-Mail: &emsp;</label>
+        <input type="email" id="id" name="id" placeholder="someone@example.com" required>
+        <br>
+        <label for="phone" class="lbl">Phone: &emsp;</label>
+        <input type="tel" id="phone" name="phone" placeholder="Only Digits" pattern="[0-9]{10}">
+        <br><br>
+        <label for="text" class="lbl">Text: &emsp;</label>
+        <textarea id="text" name="text" placeholder="Enter your text here !!!!" rows="8" cols="40" required></textarea>
+        <br><br>
+        &emsp; &emsp; &emsp; &emsp; &emsp;
+        <input type="submit" value="SUMBIT" onclick="sbmt()">
+        &emsp;  &emsp;
+        <input type="reset" value="RESET" onclick="rst()">
+        &emsp;  &emsp;
+        <input type="button" value="CANCEL" onclick="rst()">
+    </form>
+    <script>
+        function sbmt(){
+            confirm("Data submitted can't be modified !");
+        }
+        function rst(){
+            alert("Are you sure? Data can't be retrieved !")
+        }
+    </script>
+    <footer class="footer">
+        <img src="Messaging.png" alt="Messages" height='28px' widtd='28px' class="icons">
+        <img src="Call.png" alt="CallUs" height= '28px' widtd='28px' class="icons">
+        <p>All rights reserved to, <u>SANAYAI PVT. LTD.</u></p>
+    </footer>
+</body>

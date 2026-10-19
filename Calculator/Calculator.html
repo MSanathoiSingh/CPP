@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="description" content="Calculator">
+<meta name="author" content="M Sanathoi Singh">
+<meta http-equiv="refresh" content="45">
+<link rel="stylesheet" href="Calc.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap">
+<script type="text/javascript" src="CalcBack.js"></script>
+</head>
+<title>!! Calculator !!</title>
+<body>
+    <div id="box">
+        <div id="row1">
+            <input type="text" id="inp">
+        </div>
+        <div id="row2">
+            <input type="button" class="crt" value="C" onclick="clr()">
+            <input type="button" class="crt" value=" +/- " onclick="sign()">
+            <input type="button" class="crt" value=" <-- " onclick="del()">
+            <input type="button" class="sign" value=" % " onclick="conct('/')">
+        </div>
+        <div id="row3">
+            <input type="button" class="num" value=" 7 " onclick="conct('7')">
+            <input type="button" class="num" value=" 8 " onclick="conct('8')">
+            <input type="button" class="num" value=" 9 " onclick="conct('9')">
+            <input type="button" class="sign" value=" X " onclick="conct('*')">
+        </div>
+        <div id="row4">
+            <input type="button" class="num" value=" 4 " onclick="conct('4')">
+            <input type="button" class="num" value=" 5 " onclick="conct('5')">
+            <input type="button" class="num" value=" 6 " onclick="conct('6')">
+            <input type="button" class="sign" value=" - " onclick="conct('-')">
+        </div>
+        <div id="row5">
+            <input type="button" class="num" value=" 1 " onclick="conct('1')">
+            <input type="button" class="num" value=" 2 " onclick="conct('2')">
+            <input type="button" class="num" value=" 3 " onclick="conct('3')">
+            <input type="button" class="sign" value=" + " onclick="conct('+')">
+        </div>
+        <div id="lt">
+            <input type="button" class="num" value=" 0 " onclick="conct('0')">
+            <input type="button" class="num" value=" . " onclick="conct('.')">
+            <input type="button" class="sign" value=" = " onclick="calc()">
+        </div>
+    </div>
+</body>
+</html>

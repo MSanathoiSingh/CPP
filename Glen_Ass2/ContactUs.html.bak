@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="description" content="Kitchen Ware">
+<meta name="autdor" content="M Sanatdoi Singh">
+<meta http-equiv="refresh" content="45">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Playfair+Display:ital@1&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap">
+</head>
+<title>Contact Autdorities</title>
+<body id="contact">
+    <nav class="tabs">
+        <ul>
+            <li><a href="Home.html">HOME</a></li>
+            <li><a href=''>PRODUCTS</a></li>
+            <li><a href=''>SERVICES</a></li>
+            <li><a href=''>LEGACY</a></li>
+            <li><a href=''>REGISTER/SIGN IN</a></li>
+            <li><a href="Complaint.html">COMPLAINT/SUGGESTION(S)</a></li>                            <!--form-->
+            <li><div class="btn_active">CONTACT US</div></li>                                        <!--table-->
+        </ul>
+    </nav>
+    <div>
+        <P id="cnt_intr">Reach us at the below credentials: </P>
+        <table id="align">
+            <tr>
+                <th>DESIGNATION</th>
+                <th>PHONE</th>
+                <th>E-MAIL</th>
+                <th>FAX</th>
+            </tr>
+            <tr>
+                <td>Dr. M Sanatdoi Singh<br>Chairman</td>
+                <td>8562479536</td>
+                <td class="email">sanarndm@sanayai.com</td>
+                <td>0385 2145632</td>
+            </tr>
+            <tr>
+                <td>Dr. Ankit Singh<br>CEO</td>
+                <td>9035621452</td>
+                <td class="email">ankitsrm@sanayai.com</td>
+                <td>0385 2356784</td>
+            </tr>
+            <tr>
+                <td>Shri Pushpendra Choudhary<br>Sales Head</td>
+                <td>70032568512</td>
+                <td class="email">crpushpjdh@sanayai.com</td>
+                <td>0385 2136452</td>
+            </tr>
+            <tr>
+                <td>Shri Aparna Rawlo<br>Customuer Relations Head</td>
+                <td>8123654278</td>
+                <td class="email">aparnadu@sanayai.com</td>
+                <td>0385 2136452</td>
+            </tr>
+            <tr>
+                <td>Shri Nikita Prajapati<br>Registrar</td>
+                <td>8236541259</td>
+                <td class="email">nkprajmnit@sanayai.com</td>
+                <td>0385 2136452</td>
+            </tr>
+        </table>
+    </div>
+    <footer class="footer">
+        <img src="Messaging.png" alt="Messages" height='28px' widtd='28px' class="icons">
+        <img src="Call.png" alt="CallUs" height= '28px' widtd='28px' class="icons">
+        <p>All rights reserved to, <u>SANAYAI PVT. LTD.</u></p>
+    </footer>
+</body>
+</html>
